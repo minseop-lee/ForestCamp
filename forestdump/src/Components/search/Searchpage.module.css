@@ -1,0 +1,71 @@
+.wrap{
+    width: 1024px;
+    text-align: center;
+    /* height: 100vh; */
+    margin-top: 100px;
+}
+.content{
+    border-radius: 15px;
+    width: 1000px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.modal{
+    margin: 40px 10px 15px 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: end;
+}
+.box{
+    min-width: 400px;
+    max-width: 1000px;
+    height: 100vh;
+    background-color: white;
+    border: 1px solid black;
+}
+.boxHeader{
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+.icon_spacing_b{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-right: 25px;
+}
+.boxtxt{
+    font-size: 24px;
+    font-family: "Spoqa Han Sans Neo", sans-serif;
+    padding: 10px;
+    /* padding-right: 40px; */
+}
+.checkBox{
+    text-align: left;
+    padding: 15px;
+    justify-content: space-between;
+    padding-left: 30px;
+    min-width: 400px;
+    max-width: 800px;
+}
+.show_menu{
+    display: none;
+}
+.hide_menu{
+    display: hidden;
+}
+.check_txt{
+    width: 120px;
+    height: 120px;
+    padding-right: 50px;
+}
+
+.check_txt3num{
+    padding-right: 37px;
+}
+
+.h2 {
+    text-align: left;
+}

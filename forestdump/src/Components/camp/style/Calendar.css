@@ -1,0 +1,112 @@
+:root {
+    --width: 450px;
+    --height: 360px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.controller {
+    margin: 0px;
+}
+
+.container {
+    width: var(--width);
+    height: var(--height);
+    padding: 10px 10px;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    margin-top: 7px;
+
+}
+
+.container .title {
+    display: flex;
+    margin-top: -15px;
+}
+
+.container .title>button {
+    border: none;
+    margin-left: 5px;
+    height: 20px;
+    align-self: center;
+    background: none;
+}
+
+.container .title .pagination {
+    margin-left: auto;
+    align-self: center;
+}
+
+.container .title .pagination button {
+    margin: 0 10px;
+    border: none;
+    background: none;
+}
+
+.container .week {
+    display: flex;
+}
+
+.container .week .weekday {
+    width: calc(var(--width) / 7);
+    text-align: center;
+}
+
+.container .week .sunday {
+    color: red;
+}
+
+.container .week .saturday {
+    color: blue;
+}
+
+.container .date {
+    margin-top: 10px;
+}
+
+.container .date .weekday {
+    width: calc(var(--width) / 7);
+    float: left;
+    text-align: center;
+    height: 45px;
+    /* line-height: 50px; */
+}
+
+
+.container .date .today {
+    background-color: rgb(88, 111, 187);
+    color: white;
+    font-weight: 700;
+}
+
+.container .date .disable {
+    background-color: rgba(227, 95, 95, 0.505);
+    color: white;
+    pointer-events: none; 
+}
+
+.container .date .sunday {
+    color: red;
+}
+
+.container .date .saturday {
+    color: blue;
+}
+.container .date {
+    font-size : 18px;
+}
+
+.state {
+    margin: 0px auto;
+    font-size : 14px;
+    color : rgb(113, 172, 25);
+    border-radius: 100%;
+}
+
+.feat {
+    text-align:right;
+    margin: 0px;
+    font-size: 12px;
+    color : rgb(113, 172, 25);
+  }

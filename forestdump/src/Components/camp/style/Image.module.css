@@ -1,0 +1,12 @@
+.size {
+    /* width: 642px; */
+    width: 513px;
+    /* height: 436px; */
+    height: 349px;
+    margin: 10px 30px 10px 30px;
+}
+
+.img_wrapper {
+    display: flex;
+    justify-content: center;
+}

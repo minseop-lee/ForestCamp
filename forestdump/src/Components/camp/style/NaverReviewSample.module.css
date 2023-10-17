@@ -1,0 +1,14 @@
+.top_div {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.more {
+    float: right;
+}
+
+.title {
+    text-align: center;
+    color: #d0092e;
+    font-family: 'Hi Melody', cursive;
+}

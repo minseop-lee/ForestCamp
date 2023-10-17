@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=East+Sea+Dokdo:400");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Pen+Script:400");
+
+.icon_span {
+  position: absolute;
+  top: 10px;
+  right: -230px;
+  /* text-align: right; */
+  padding-right: 11px;
+  font-family: "Nanum Pen Script", "East Sea Dokdo";
+  font-size: 20px;
+}

@@ -1,0 +1,52 @@
+.wrapper {
+  position: static;
+  width: 1089px;
+  justify-content: center;
+  margin-top: -300px; /* 이 값을 조정합니다 */
+  height: 340px;
+  background-color: white;
+}
+
+.footerContainer {
+  margin: 40px;
+  flex-wrap: wrap;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.visible {
+  bottom: 0;
+}
+
+.flexItemLogo {
+  height: 220px;
+  width: 250px;
+  margin-top: 15px;
+}
+
+.imgwrap {
+  content: url("/src/images/logo_black.png");
+  width: 140px;
+  height: 90px;
+}
+
+.flexItem {
+  width: 400px;
+  /* height: 220px; */
+}
+
+.rightLine {
+  border-right: 1px solid black;
+  margin-left: 15px;
+}
+
+.foot {
+  width: 1088px;
+  text-align: center;
+  padding-top: 45px;
+  bottom: 0;
+}
+

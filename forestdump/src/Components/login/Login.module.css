@@ -1,0 +1,71 @@
+.login_div {
+  margin-top: 200px;
+  margin-bottom: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+  border: 3px solid #070606;
+  border-radius: 15px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* 백그라운드에 약간의 투명도 추가 */
+  padding: 20px;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.login_div button {
+  height: 50px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px; /* 더 둥글게 */
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+  color: white;
+}
+
+.login_div button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.login_div .naver_button {
+  background: linear-gradient(45deg, #00c73c, #65b600);
+}
+
+.login_div .google_button {
+  background: linear-gradient(45deg, #ea4335, #ff7f00);
+}
+
+.login_div .kakao_button {
+  background: linear-gradient(45deg, #ffd200, #ff9800);
+}
+
+.txt_b {
+  padding-left: 10px;
+  font-size: 32px; /* 크기 조절 */
+  font-weight: bold;
+  margin-bottom: 15px; /* 간격 조절 */
+}
+
+.txt_s {
+  font-size: 18px; /* 크기 조절 */
+  padding-left: 10px;
+  margin-bottom: 25px; /* 간격 조절 */
+}

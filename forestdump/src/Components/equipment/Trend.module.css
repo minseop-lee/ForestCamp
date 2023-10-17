@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+    /* background-color: rgb(46, 36, 226) */
+}
+
+.trendContainer {
+    width: 1200px;
+    height: 446px;
+    flex-shrink: 0;
+}
+
+.trend {
+    width: 1200px;
+    height: 340px;
+    flex-shrink: 0;
+    /* 125% */
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=East+Sea+Dokdo:400');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script:400');
+.position {
+    margin-left: 30px;
+    float: right;
+}
+
+.svg {
+    transform: rotate(-45deg);
+    transition: 2s ease-out;
+    animation: fadeIn 1s ease-in alternate;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.icon_span {
+    text-align: right;
+    padding-right: 11px;
+    margin-top: -27px;
+    font-family: 'Nanum Pen Script','East Sea Dokdo';
+    font-size: 20px;
+}

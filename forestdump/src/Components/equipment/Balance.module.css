@@ -1,0 +1,70 @@
+.wrapper {
+    width: 1024px;
+    height: 120px;
+    flex-shrink: 0;
+    /* margin-left: 96px; */
+    margin-right: 100px;
+    margin-top: 120px;
+    position: relative;
+
+}
+
+.balanceContainer {
+    width: 1024px;
+    height: 120px;
+    flex-shrink: 0;
+
+}
+
+.balancetext {
+    color: #505D6F;
+    font-family: OPPOSans;
+    font-size: 18.41px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 27.615px; */
+    /* 150% */
+}
+
+.recentPrc {
+    color: #505D6F;
+    text-align: right;
+    font-family: OPPOSans;
+    font-size: 29.456px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.661px;
+}
+
+.fluctuation {
+    color: #505D6F;
+    font-family: OPPOSans;
+    font-size: 12.887px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 10px;
+
+
+}
+
+.vline {
+    border-top: 100px solid #c7c3c3;
+    height: 100%;
+    left: 50%;
+    /* position: absolute; */
+    /* height: 1023px; */
+    /* flex-shrink: 0; */
+}
+
+.hrsolid {
+    /* border: 0px; */
+    height: 100%;
+    border-top: 1px solid #c7c3c3;
+}
+
+.balanceSpan {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -25px;
+}

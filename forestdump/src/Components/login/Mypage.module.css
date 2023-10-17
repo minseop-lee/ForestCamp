@@ -1,0 +1,124 @@
+:root {
+  --border-color: #070606;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --light-gray: #f4f4f4;
+  --medium-gray: #e1e1e1;
+  --info-bg: #fafafa;
+  --main-padding: 2rem;
+}
+
+.container {
+  margin: 100px auto;
+  max-width: 1200px;
+  border: 3px solid var(--border-color);
+  border-radius: 15px;
+  background-color: white;
+  padding: var(--main-padding);
+  box-shadow: 0 5px 15px var(--shadow-color);
+  text-align: center;
+  margin-bottom: 500px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.infoText {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 15px;
+  background-color: var(--info-bg);
+  border-bottom: 2px solid var(--medium-gray);
+  margin-bottom: 30px;
+}
+
+.favorites_section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid var(--medium-gray);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px var(--shadow-color);
+  transition: box-shadow 0.3s, transform 0.3s;
+  max-width: 100%; /* 카드의 최대 너비를 100%로 조정 */
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px var(--shadow-color);
+  transform: scale(1.05);
+}
+
+.campLink {
+  font-weight: 500;
+  color: var(--border-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.campLink:hover {
+  color: #333;
+}
+
+.equipmentLink,
+.equipmentLink:visited {
+  text-decoration: none;
+  color: var(--border-color);
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.prevButton,
+.nextButton {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4caf50; /* 버튼 배경색을 녹색 계열로 설정 */
+  color: white; /* 글자 색상은 흰색으로 설정 */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.prevButton:hover,
+.nextButton:hover {
+  background-color: #45a049;
+}
+
+.removeButton {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: rgba(5, 4, 4, 0.6);
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.3s;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+
+  &:hover {
+    background-color: rgba(205, 10, 10, 0.8);
+  }
+}

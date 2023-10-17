@@ -1,0 +1,32 @@
+.head {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head_title {
+    font-family: "Kaushan Script", cursive;
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 1;
+    color: #0061a8;
+    margin: 0px;
+}
+
+.head_subtitle {
+    font-size: 14px;
+    color: #919191;
+    margin: 3px;
+}
+
+.h1_div {
+    width: 538px;
+    height: 326px;
+    text-align: center;
+    line-height: 326px;
+    color: #000;
+    margin: 0px auto;
+    background-color: gray;
+}

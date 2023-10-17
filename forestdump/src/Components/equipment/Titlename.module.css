@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(150, 9, 9); */
+    margin-top: 410px;
+}
+
+.Container {
+    width: 626px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.name {
+    font-family: Spoqa Han Sans Neo;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    writing-mode: horizontal-tb;
+    margin-left: 30px;
+    margin-top: 20px;
+
+
+}
+
+.account {
+    color: #000;
+    font-family: Spoqa Han Sans Neo;
+    font-size: 15px;
+    /* font-style: normal; */
+    font-family: Georgia, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+
+.likeContainer {
+    position: absolute;
+    right: 240px;
+    top: 130px;
+
+}

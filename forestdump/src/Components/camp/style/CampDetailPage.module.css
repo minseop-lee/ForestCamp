@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Leckerli+One&display=swap');
+
+.main {
+    width: 1088px;
+    /* text-align: center; */
+    margin-top: 100px;
+    margin-bottom: 350px;
+}
+
+.name {
+    color: #002001;
+    font-family: 'Hi Melody', 'cursive';
+    font-size: 42px;
+    text-align: center;
+}
+
+
+.info {
+    margin: 100px 0px 0px 30px;
+}
+
+.inline {
+    margin-left: 30px;
+    display: inline-block;
+    width: 40%;
+}
+
+.fixed_btn {
+    position: fixed;
+    bottom: 0;
+}
+
+.reserve_btn {
+    width: 470px;
+}
+
+.container {
+    /* border: 5px solid #ffcc5c; */
+    display: grid;
+    /* grid-template-columns: 200px 200px 500px; */
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-columns: 200px 1fr; */
+    /* grid-template-columns: 100px 200px auto; */
+
+    /* grid-template-rows: 200px 200px 500px; */
+    grid-template-rows: 100px 1fr 150px 450px;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    /* grid-template-rows: repeat(3, 1fr); */
+    /* grid-template-rows: 200px 1fr; */
+    /* grid-template-rows: 100px 200px auto; */
+
+    gap: 10px 20px;
+    /* row-gap: 10px; column-gap: 20px; */
+}
+
+.item:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.item:nth-child(3) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.item:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.item:nth-child(6) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.item:nth-child(6) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}

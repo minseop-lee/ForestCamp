@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&family=Leckerli+One&display=swap');
+
+.div_desc {
+    margin: 10px
+}
+
+.name {
+    color: gray;
+    font-size: 15px;
+    margin: 0px 0px 0px 20px;
+}
+
+.descript {
+    font-size: 14px;
+}
+
+.review_paper {
+    margin-top: 5px;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.review_paper:hover {
+    transform: scale(1.02);
+    box-shadow: -.3rem -.1rem 1.4rem #FBFBFB, .3rem .4rem .8rem #BEC5D0;
+}
+
+.review_paper:active {
+    box-shadow: inset -.3rem -.1rem 1.4rem #FBFBFB, inset .3rem .4rem .8rem #BEC5D0;
+
+}
+
+
+.divHead {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    margin: 10px
+}
+
+
+
+.img {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}

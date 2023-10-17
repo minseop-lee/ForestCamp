@@ -1,0 +1,50 @@
+.headerContainer {
+  width: 1024px;
+  height: 100px;
+  position: absolute;
+}
+
+.logo {
+  padding: 15px 25px 25px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.icon {
+  margin-top: 15px;
+  height: 68px;
+  font-size: 22px;
+  padding-top: 15px;
+}
+
+.icons {
+  text-decoration: none;
+  color: black;
+}
+
+.icon_spacing {
+  padding-right: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.logoImg {
+  content: url("../../images/header_Logo.png");
+  width: 140px;
+  height: 68px;
+}
+
+.userName {
+  margin: 10px 10px 0 10px;
+  font-size: 60%;
+  display: block;
+}
