@@ -1,0 +1,20 @@
+version: "3"
+services:
+  oauth:
+    build: .
+    # 연결할 외부 디렉토리 : 컨테이너 내 디렉토리
+    ports:
+      - "3000:3000"
+    # 환경변수 설정
+    environment:
+      - GOOGLE_CLIENT_ID=
+      - GOOGLE_CLIENT_SECRET=
+      - NAVER_CLIENT_ID=
+      - NAVER_CLIENT_SECRET=
+      - KAKAO_CLIENT_ID=
+      - KAKAO_CLIENT_SECRET=
+      - Mysql_Hostname=
+      - Mysql_Port=
+      - Mysql_Username=
+      - Mysql_Password=
+      - Mysql_DBname=
