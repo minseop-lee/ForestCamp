@@ -608,10 +608,6 @@ app.delete("/campstore/equipmentfavord", async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
-
 app.get("/campstore/search_favor", async (req, res) => {
   try {
     console.log("아");
@@ -640,4 +636,8 @@ app.get("/camp/search_favor", async (req, res) => {
     console.error(err);
     res.status(500).json({ error: "Internal Server Error" });
   }
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
